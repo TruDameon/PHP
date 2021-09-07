@@ -16,13 +16,13 @@
         // echo("<hr>");
         // echo "<p> This is my site. </p";
 
-        $character_name = "Dameon";
-        $character_age = "35";
+        // $character_name = "Dameon";
+        // $character_age = "35";
 
-        echo("There once was a man name named $character_name. <br>"); // Similar to react
-        echo("He was $character_age years old. <br>");
-        echo("He really liked the name $character_name. <br>");
-        echo("But he didn't like being $character_age. <br>");
+        // echo("There once was a man name named $character_name. <br>"); // Similar to react
+        // echo("He was $character_age years old. <br>");
+        // echo("He really liked the name $character_name. <br>");
+        // echo("But he didn't like being $character_age. <br>");
     ?>
 
 </body>
