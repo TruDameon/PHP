@@ -71,6 +71,67 @@
         // echo round(3.2);
         // echo ceil(3.3);
         // echo floor(3.3);
+
+        // USER INPUT - we will need form for this
+
+    ?>
+
+    <!-- <form action="site.php" method="get">
+        Name : <input type="text" name="name">
+        <br>
+        Age: <input type="text" name="age">
+        <input type="submit">
+    </form>
+
+    Your name is: <?php echo $_GET["name"]; ?>
+    <br>
+    Your age is: <?php echo $_GET["age"]; ?> -->
+
+    <!-- CALCULATOR -->
+    <!-- <form action="site.php" method="get">
+        <input type="number" name="num1">
+        <br>
+        <input type="number" name="num2">
+        <br>
+        <input type="submit">
+    </form>
+
+    Answer: <?php
+        echo $_GET["num1"] + $_GET["num2"] 
+    ?> -->
+
+    <!-- MAD LIBS GAME -->
+    <!-- <form action="site.php" method="get">
+        Color: <input type="text" name="color"> <br>
+        Plural Noun: <input type="text" name="pluralNoun"> <br>
+        Celebrity: <input type="text" name="celebrity"> <br>
+
+        <input type="submit">
+    </form>
+
+    <?php
+
+        $color = $_GET["color"];
+        $pluralNoun = $_GET["pluralNoun"];
+        $celebrity = $_GET["celebrity"];
+
+        echo "Roses are $color <br>";
+        echo "$pluralNoun are blue <br>";
+        echo "I love $celebrity <br>";
+    ?> -->
+
+    <!-- URL PARAMETERS -->
+    <form action="site.php" method="get">
+        Name: <input type="text" name="name"> <br>
+        Password: <input type="password" name="password" id="password"> <br>
+        <input type="submit">
+    </form>
+    <br><br>
+
+    <?php
+        echo $_GET["name"];
+        echo "<br>";
+        echo $_GET["password"];
     ?>
 
 </body>
