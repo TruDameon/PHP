@@ -121,7 +121,7 @@
     ?> -->
 
     <!-- URL PARAMETERS -->
-    <form action="site.php" method="get">
+    <!-- <form action="site.php" method="get">
         Name: <input type="text" name="name"> <br>
         Password: <input type="password" name="password" id="password"> <br>
         <input type="submit">
@@ -132,7 +132,61 @@
         echo $_GET["name"];
         echo "<br>";
         echo $_GET["password"];
-    ?>
+    ?> -->
+
+    <!-- <form action="site.php" method="post">
+        Name: <input type="text" name="name"> <br>
+        Password: <input type="password" name="password" id="password"> <br>
+        <input type="submit">
+    </form>
+    <br><br>
+
+    <?php
+        echo $_POST["name"];
+        echo "<br>";
+        echo $_POST["password"];
+    ?> -->
+
+    <!-- ARRAYS -->
+
+    <!-- <?php
+        $friends = array("Kevin", "Karen", "Oscar", "Jim", 1, true);
+        echo $friends[1];
+        $friends[1] = 400;
+        echo $friends[1];
+        $friends[6] = "Angela";
+        echo $friends[4];
+        echo count($friends);
+    ?> -->
+
+    <!-- <form action="site.php" method="post">
+        Apples: <input type="checkbox" name="fruits[]" value="apples"><br>
+        Oranges: <input type="checkbox" name="fruits[]" value="oranges"><br>
+        Pears: <input type="checkbox" name="fruits[]" value="pears"><br>
+
+        <input type="submit">
+    </form>
+
+    <?php
+        $fruits = $_POST["fruits"];
+        echo $fruits[1];
+    ?> -->
+
+    <!-- ASSOCIATIVE ARRAYS -> HASHMAPS -->
+    <!-- <?php
+        $grades = array("Jim"=>"A+", "Pam"=>"B-", "Oscar"=>"C+"); //Keys should be uniques
+        echo $grades["Jim"];
+    ?> -->
+
+    <!-- <form action="site.php" method="post">
+        <input type="text" name="student">
+        <input type="submit">
+    </form>
+
+    <?php
+        $grades = array("Jim"=>"A+", "Pam"=>"B-", "Oscar"=>"C+"); //Keys should be uniques
+        echo $grades[$_POST["student"]];
+    ?> -->
 
 </body>
 </html>
